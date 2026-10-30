@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GAYA Food Dishes | Taste the Difference</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="#" class="brand">
+        <span class="brand-mark">G</span>
+        <span>
+            <strong>GAYA</strong>
+            <small>Food Dishes</small>
+        </span>
+    </a>
+
+    <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#order">Order</a>
+    </nav>
+
+    <a href="#order" class="header-order">Order Now</a>
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">Freshly prepared • Rich in flavour</p>
+
+            <h1>
+                Good food,
+                <span>great moments.</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover delicious Nigerian dishes prepared with quality ingredients,
+                traditional flavour and a modern touch.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#menu" class="primary-button">Explore Menu</a>
+                <a href="#order" class="text-button">Place an Order →</a>
+            </div>
+
+            <div class="hero-note">
+                <span>★</span>
+                Carefully prepared meals for every occasion.
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1000&q=85"
+                alt="Beautifully prepared food"
+            >
+        </div>
+    </section>
+
+    <section class="section intro-section" id="about">
+        <div>
+            <p class="eyebrow">Why choose GAYA?</p>
+            <h2>Made with care.<br>Served with pride.</h2>
+        </div>
+
+        <p>
+            At GAYA Food Dishes, every meal is prepared to give you a memorable
+            experience. From traditional favourites to satisfying grilled meals,
+            we bring flavour, freshness and convenience to your table.
+        </p>
+    </section>
+
+    <section class="section" id="menu">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Our selection</p>
+                <h2>Explore our menu</h2>
+            </div>
+
+            <p>Choose your favourite meal and add it to your order.</p>
+        </div>
+
+        <div class="menu-filters">
+            <button class="filter-button active" data-category="all">All</button>
+            <button class="filter-button" data-category="rice">Rice</button>
+            <button class="filter-button" data-category="swallow">Swallow</button>
+            <button class="filter-button" data-category="grill">Grills</button>
+            <button class="filter-button" data-category="snacks">Snacks</button>
+            <button class="filter-button" data-category="drinks">Drinks</button>
+        </div>
+
+        <div class="food-grid">
+
+            <article class="food-card" data-category="rice">
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=85" alt="Jollof rice">
+                <div class="food-info">
+                    <span class="food-category">Rice</span>
+                    <h3>Special Jollof Rice</h3>
+                    <p>Richly seasoned rice served with delicious sides.</p>
+                    <div class="food-bottom">
+                        <strong>₦3,500</strong>
+                        <button class="add-button" data-food="Special Jollof Rice" data-price="3500">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="rice">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=85" alt="Fried rice">
+                <div class="food-info">
+                    <span class="food-category">Rice</span>
+                    <h3>GAYA Fried Rice</h3>
+                    <p>Colourful fried rice prepared with fresh vegetables.</p>
+                    <div class="food-bottom">
+                        <strong>₦4,000</strong>
+                        <button class="add-button" data-food="GAYA Fried Rice" data-price="4000">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="swallow">
+                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=85" alt="Soup and swallow">
+                <div class="food-info">
+                    <span class="food-category">Swallow</span>
+                    <h3>Soup & Swallow</h3>
+                    <p>Traditional swallow served with rich homemade soup.</p>
+                    <div class="food-bottom">
+                        <strong>₦4,500</strong>
+                        <button class="add-button" data-food="Soup and Swallow" data-price="4500">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="grill">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=85" alt="Grilled meat">
+                <div class="food-info">
+                    <span class="food-category">Grills</span>
+                    <h3>GAYA Grilled Meat</h3>
+                    <p>Tender grilled meat with a delicious smoky finish.</p>
+                    <div class="food-bottom">
+                        <strong>₦5,000</strong>
+                        <button class="add-button" data-food="GAYA Grilled Meat" data-price="5000">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="grill">
+                <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=700&q=85" alt="Grilled chicken">
+                <div class="food-info">
+                    <span class="food-category">Grills</span>
+                    <h3>Grilled Chicken</h3>
+                    <p>Juicy chicken grilled with our special seasoning.</p>
+                    <div class="food-bottom">
+                        <strong>₦5,500</strong>
+                        <button class="add-button" data-food="Grilled Chicken" data-price="5500">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="snacks">
+                <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=700&q=85" alt="Meat pie">
+                <div class="food-info">
+                    <span class="food-category">Snacks</span>
+                    <h3>Fresh Meat Pie</h3>
+                    <p>Golden pastry filled with tasty seasoned meat.</p>
+                    <div class="food-bottom">
+                        <strong>₦1,000</strong>
+                        <button class="add-button" data-food="Fresh Meat Pie" data-price="1000">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="snacks">
+                <img src="https://images.unsplash.com/photo-1626196340100-8a7f5d6e4f8a?auto=format&fit=crop&w=700&q=85" alt="Puff puff">
+                <div class="food-info">
+                    <span class="food-category">Snacks</span>
+                    <h3>Sweet Puff Puff</h3>
+                    <p>Soft, golden and freshly prepared puff puff.</p>
+                    <div class="food-bottom">
+                        <strong>₦800</strong>
+                        <button class="add-button" data-food="Sweet Puff Puff" data-price="800">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="drinks">
+                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=85" alt="Fresh drink">
+                <div class="food-info">
+                    <span class="food-category">Drinks</span>
+                    <h3>Fresh Fruit Drink</h3>
+                    <p>A refreshing drink prepared with fresh fruits.</p>
+                    <div class="food-bottom">
+                        <strong>₦1,500</strong>
+                        <button class="add-button" data-food="Fresh Fruit Drink" data-price="1500">+</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="order-section" id="order">
+        <div class="order-intro">
+            <p class="eyebrow">Ready to eat?</p>
+            <h2>Place your order.</h2>
+            <p>
+                Select your preferred meals, complete the form and submit your order.
+                Our team will contact you to confirm the details.
+            </p>
+        </div>
+
+        <form id="order-form" class="order-form">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="customer-name">Full name</label>
+                    <input type="text" id="customer-name" required placeholder="Your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-phone">Phone number</label>
+                    <input type="tel" id="customer-phone" required placeholder="Your phone number">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="customer-email">Email address</label>
+                <input type="email" id="customer-email" required placeholder="you@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="delivery-address">Delivery address</label>
+                <textarea id="delivery-address" required placeholder="Enter your delivery address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="selected-food">Selected food</label>
+                <select id="selected-food" required>
+                    <option value="">Choose a meal</option>
+                    <option>Special Jollof Rice</option>
+                    <option>GAYA Fried Rice</option>
+                    <option>Soup and Swallow</option>
+                    <option>GAYA Grilled Meat</option>
+                    <option>Grilled Chicken</option>
+                    <option>Fresh Meat Pie</option>
+                    <option>Sweet Puff Puff</option>
+                    <option>Fresh Fruit Drink</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="food-quantity">Quantity</label>
+                    <input type="number" id="food-quantity" min="1" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="order-type">Order type</label>
+                    <select id="order-type" required>
+                        <option value="Delivery">Delivery</option>
+                        <option value="Pickup">Pickup</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="order-note">Additional note</label>
+                <textarea id="order-note" placeholder="Any special request?"></textarea>
+            </div>
+
+            <div class="order-summary">
+                <span>Order status</span>
+                <strong id="order-status">Ready to receive your order</strong>
+            </div>
+
+            <button type="submit" class="primary-button full-button">
+                Submit Order
+            </button>
+
+            <p id="form-message" class="form-message"></p>
+
+        </form>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-brand">
+        <a href="#" class="brand">
+            <span class="brand-mark">G</span>
+            <span>
+                <strong>GAYA</strong>
+                <small>Food Dishes</small>
+            </span>
+        </a>
+
+        <p>Good food. Great moments.</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 GAYA Food Dishes. All rights reserved.
+    </p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
